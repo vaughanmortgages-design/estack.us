@@ -13,16 +13,105 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Market Highlights | eStack.US">
   <meta name="twitter:description" content="Live market highlights for operators and investors.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RCRY576J3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9RCRY576J3');
+  </script>
   <style>
-    body{font-family:Inter,Arial,sans-serif;margin:0;background:#faf7ee;color:#0B1426}.wrap{max-width:1120px;margin:auto;padding:32px 20px}header,footer{background:#0B1426;color:white}a{color:inherit}.logo{font-size:28px;font-weight:900;text-decoration:none}.logo span{color:#D4A853}.hero{background:#0B1426;color:#F5F0E3;padding:60px 20px}.hero h1{font-size:clamp(38px,6vw,70px);margin:0 0 10px}.box{background:white;border:1px solid #ded6c4;border-radius:24px;padding:20px;margin:22px 0}
+    :root{--gold:#d7af55;--gold2:#f4d37b;--cream:#f6efe1;--paper:#fbf8f0;--ink:#111827;--muted:#70737a;--line:rgba(215,175,85,.24)}*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.58}a{color:inherit}
+    nav{background:rgba(5,5,5,.96);color:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+    .nav{max-width:1240px;margin:auto;padding:17px 24px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-family:Fraunces,serif;font-size:31px;font-weight:900;text-decoration:none;letter-spacing:-.05em}.logo span{color:var(--gold)}
+    .links{display:flex;gap:18px;align-items:center;font-weight:800;font-size:14px}.links a{text-decoration:none;color:var(--cream)}.links .cta{background:var(--gold);color:#090909;padding:10px 15px;border-radius:999px}
+    .hero{background:#050505;color:var(--cream);padding:80px 24px;border-bottom:3px solid var(--gold)}
+    .hero h1{font-family:Fraunces,serif;font-size:clamp(42px,6vw,80px);line-height:.92;letter-spacing:-.05em;margin-bottom:14px}
+    .hero p{font-size:18px;color:rgba(246,239,225,.8);max-width:680px}
+    .wrap{max-width:1240px;margin:auto}
+    section{padding:48px 24px}
+    .box{background:white;border:1px solid rgba(17,24,39,.1);border-radius:28px;padding:22px;margin:22px 0;box-shadow:0 8px 28px rgba(0,0,0,.07)}
+    .section-title{font-family:Fraunces,serif;font-size:clamp(28px,4vw,44px);letter-spacing:-.04em;margin-bottom:6px}
+    .section-sub{color:var(--muted);margin-bottom:18px;font-size:16px}
+    .tag-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}
+    .tag-card{background:#fff;border:1px solid rgba(17,24,39,.1);border-radius:18px;padding:18px;text-align:center}
+    .tag-card .label{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    .tag-card .value{font-family:Fraunces,serif;font-size:26px;margin:6px 0}
+    footer{background:#030303;color:rgba(246,239,225,.72);padding:40px 24px;font-size:14px}
+    .foot-inner{max-width:1240px;margin:auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+    .foot-inner a{color:rgba(246,239,225,.72);text-decoration:none;font-weight:700}.foot-inner a:hover{color:var(--gold)}
+    .hamburger{display:none;background:none;border:none;color:var(--cream);font-size:26px;cursor:pointer;padding:6px;line-height:1}
+    @media(max-width:900px){.tag-grid{grid-template-columns:repeat(2,1fr)}.hamburger{display:block}.links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(5,5,5,.98);padding:18px 24px;gap:16px;border-bottom:1px solid var(--line);z-index:100}nav{position:sticky;top:0}}.links{display:flex}@media(max-width:900px){.links{display:none}}
   </style>
 </head>
 <body>
-  <header><div class="wrap"><a class="logo" href="/">e<span>Stack</span>.US</a> · <a href="partners.html">Partners</a></div></header>
+  <nav><div class="nav"><a class="logo" href="./">e<span>Stack</span>.US</a><button class="hamburger" aria-label="Toggle navigation" onclick="this.closest('nav').querySelector('.links').classList.toggle('open')">☰</button><div class="links"><a href="./">Home</a><a href="partners.html">Partners</a><a href="./#latest">Latest</a><a href="./#newsletter" class="cta">Newsletter</a></div></div></nav>
+
+  <section class="hero">
+    <div class="wrap">
+      <div style="display:inline-flex;background:rgba(215,175,85,.13);border:1px solid rgba(215,175,85,.34);padding:8px 13px;border-radius:999px;color:var(--gold2);font-weight:900;font-size:13px;margin-bottom:16px">📈 Live market data</div>
+      <h1>Market highlights.</h1>
+      <p>Gold, silver, Bitcoin, S&amp;P 500, Nasdaq, oil and the U.S. Dollar Index. Live from TradingView.</p>
+    </div>
+  </section>
+
   <main>
-    <section class="hero"><div class="wrap"><h1>Market highlights.</h1><p>Gold, silver, Bitcoin, S&P 500, Nasdaq and the U.S. Dollar Index.</p></div></section>
-    <section class="wrap" aria-label="Live market overview"><div class="box"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>{"colorTheme":"light","dateRange":"12M","showChart":true,"locale":"en","width":"100%","height":"520","isTransparent":false,"showSymbolLogo":true,"tabs":[{"title":"US Watch","symbols":[{"s":"FOREXCOM:SPXUSD","d":"S&P 500"},{"s":"NASDAQ:IXIC","d":"Nasdaq"},{"s":"TVC:GOLD","d":"Gold"},{"s":"TVC:SILVER","d":"Silver"},{"s":"BITSTAMP:BTCUSD","d":"Bitcoin"},{"s":"TVC:DXY","d":"US Dollar"}]}]}</script></div></div></section>
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">Live Market Overview</h2>
+        <p class="section-sub">S&amp;P 500, Nasdaq, Dow, gold, silver, Bitcoin, oil and USD index</p>
+        <div class="box">
+          <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+          <script src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>{"colorTheme":"light","dateRange":"12M","showChart":true,"locale":"en","width":"100%","height":"520","isTransparent":false,"showSymbolLogo":true,"tabs":[{"title":"US Watch","symbols":[{"s":"FOREXCOM:SPXUSD","d":"S&P 500"},{"s":"NASDAQ:IXIC","d":"Nasdaq"},{"s":"DJ:DJI","d":"Dow"},{"s":"TVC:GOLD","d":"Gold"},{"s":"TVC:SILVER","d":"Silver"},{"s":"BITSTAMP:BTCUSD","d":"Bitcoin"},{"s":"TVC:USOIL","d":"Oil"},{"s":"TVC:DXY","d":"US Dollar"}]}]}</script></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background:#050505;color:var(--cream);padding:56px 24px">
+      <div class="wrap">
+        <h2 class="section-title" style="color:#fff">What to watch.</h2>
+        <p class="section-sub" style="color:#cfc4af">Key markets tracked weekly by eStack.US</p>
+        <div class="tag-grid">
+          <div class="tag-card"><div class="label">U.S. Equities</div><div class="value">S&amp;P 500</div><div style="font-size:13px;color:var(--muted)">Nasdaq · Dow</div></div>
+          <div class="tag-card"><div class="label">Precious Metals</div><div class="value">Gold · Silver</div><div style="font-size:13px;color:var(--muted)">via <a href="https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205" rel="sponsored nofollow noopener noreferrer" target="_blank" style="color:var(--gold);font-weight:700">Kitco</a></div></div>
+          <div class="tag-card"><div class="label">Crypto</div><div class="value">Bitcoin</div><div style="font-size:13px;color:var(--muted)">Risk appetite proxy</div></div>
+          <div class="tag-card"><div class="label">Macro</div><div class="value">DXY · Oil</div><div style="font-size:13px;color:var(--muted)">Commodities &amp; demand</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">Metals &amp; Commodities</h2>
+        <p class="section-sub">Track gold, silver, oil and precious metals markets</p>
+        <div class="box">
+          <div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+          <script src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>{"colorTheme":"light","dateRange":"3M","showChart":true,"locale":"en","width":"100%","height":"420","isTransparent":false,"showSymbolLogo":true,"tabs":[{"title":"Metals & Commodities","symbols":[{"s":"TVC:GOLD","d":"Gold"},{"s":"TVC:SILVER","d":"Silver"},{"s":"TVC:USOIL","d":"Crude Oil"},{"s":"TVC:DXY","d":"US Dollar Index"}]}]}</script></div>
+        </div>
+        <p style="font-size:13px;color:var(--muted);margin-top:14px">Track gold and silver prices in detail at <a href="https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205" rel="sponsored nofollow noopener noreferrer" target="_blank" style="color:#5c4500;font-weight:700;background:#fff5d6;padding:2px 8px;border-radius:6px;border:1px solid #ead68e">Kitco — sponsored</a></p>
+      </div>
+    </section>
   </main>
-  <footer><div class="wrap">eStack.US · <a href="affiliate-disclosure.html">Affiliate Disclosure</a></div></footer>
+
+  <footer>
+    <div class="foot-inner">
+      <span>© 2026 eStack.US</span>
+      <nav aria-label="Footer navigation" style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="./">Home</a>
+        <a href="partners.html">Partners</a>
+        <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a href="mailto:info@estack.us">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('click',function(e){var l=document.querySelector('.links');if(l&&l.classList.contains('open')&&!l.contains(e.target)&&!e.target.closest('.hamburger')){l.classList.remove('open');}});
+  </script>
 </body>
 </html>
