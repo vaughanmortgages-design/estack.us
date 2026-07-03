@@ -1,0 +1,59 @@
+{
+  "updated": "2026-07-03",
+  "partners": {
+    "shopify": {
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "url": "https://shopify.pxf.io/PzRMVN",
+      "cta": "Start a store"
+    },
+    "beehiiv": {
+      "name": "Beehiiv",
+      "category": "Newsletter",
+      "url": "https://www.beehiiv.com/",
+      "cta": "Build your newsletter"
+    },
+    "windsor-ai": {
+      "name": "Windsor.ai",
+      "category": "AI Analytics",
+      "url": "https://windsor.ai/?fpr=paul17",
+      "cta": "Try Windsor.ai"
+    },
+    "tiktok-for-business": {
+      "name": "TikTok for Business",
+      "category": "Marketing",
+      "url": "https://getstartedtiktok.partnerlinks.io/19gddff1jq85",
+      "cta": "Start free"
+    },
+    "kitco": {
+      "name": "Kitco",
+      "category": "Investing",
+      "url": "https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205",
+      "cta": "Browse Kitco"
+    },
+    "leadscout": {
+      "name": "LeadScout",
+      "category": "Business Tools",
+      "url": "https://leadscout.com/",
+      "cta": "Explore LeadScout"
+    },
+    "afn": {
+      "name": "Advance Funds Network",
+      "category": "Business Funding",
+      "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
+      "cta": "See funding options"
+    },
+    "blackhawk-gift-cards": {
+      "name": "Blackhawk Gift Cards",
+      "category": "Gift Cards",
+      "url": "https://www.giftcards.com/",
+      "cta": "Browse gift cards"
+    },
+    "usa-rebound-finance": {
+      "name": "USA Rebound Finance",
+      "category": "Personal Loans",
+      "url": "https://cmi.rocks/go/6a443c202adb2",
+      "cta": "Check your offer"
+    }
+  }
+}
