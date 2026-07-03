@@ -33,9 +33,10 @@
     },
     "leadscout": {
       "name": "LeadScout",
-      "category": "Business Tools",
-      "url": "https://leadscout.com/",
-      "cta": "Explore LeadScout"
+      "category": "Finance / Loans / Partner Tools",
+      "url": "https://leadscout.ca",
+      "cta": "Explore LeadScout",
+      "description": "Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers."
     },
     "afn": {
       "name": "Advance Funds Network",
