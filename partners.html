@@ -13,8 +13,25 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Featured Partners | eStack.US">
   <meta name="twitter:description" content="Premium partner directory for business tools, investing and growth.">
+  <style>
+    body{font-family:Inter,Arial,sans-serif;margin:0;background:#faf7ee;color:#0B1426}a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:32px 20px}header,footer{background:#0B1426;color:#fff}.top{display:flex;justify-content:space-between;gap:15px;align-items:center}.logo{font-size:28px;font-weight:900;text-decoration:none}.logo span{color:#D4A853}.nav a{margin-left:14px;color:white}.hero{background:#0B1426;color:#F5F0E3;padding:70px 20px}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1;margin:0 0 12px}.hero p{font-size:18px;color:#ddd;max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #ded6c4;border-radius:22px;padding:22px;display:flex;flex-direction:column;min-height:240px;box-shadow:0 8px 24px rgba(0,0,0,.05)}.tag{align-self:flex-start;background:#fff6db;border:1px solid #ead68e;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;margin-bottom:12px}.card h2{font-size:22px;margin:0 0 8px}.card p{color:#596170;flex:1}.btn{background:#0B1426;color:#fff;text-align:center;text-decoration:none;border-radius:999px;padding:12px 14px;font-weight:900}.note{font-size:13px;color:#596170;margin-top:24px}@media(max-width:850px){.grid{grid-template-columns:1fr}.top{display:block}.nav{margin-top:12px}.nav a{margin:0 12px 0 0}}
+  </style>
 </head>
 <body>
+  <header>
+    <div class="wrap top">
+      <a class="logo" href="/">e<span>Stack</span>.US</a>
+      <div class="nav"><a href="/">Home</a><a href="affiliate-disclosure.html">Disclosure</a><a href="privacy-policy.html">Privacy</a></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Featured partner stack.</h1>
+      <p>Funding, ecommerce, AI analytics, marketing, newsletter and investing tools in one clean directory.</p>
+    </div>
+  </section>
+
   <main class="wrap">
     <div class="grid">
       <article class="card"><span class="tag">Business Funding</span><h2>Advance Funds Network</h2><p>Working capital, merchant cash advance and lender-network funding options.</p><a class="btn" rel="sponsored nofollow" href="#" data-affiliate-key="afn" data-cta-from-json="true">See funding options</a></article>
@@ -27,6 +44,36 @@
       <article class="card"><span class="tag">Finance / Loans / Partner Tools</span><h2>LeadScout</h2><p>Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers.</p><a class="btn" rel="sponsored nofollow" href="#" data-affiliate-key="leadscout" data-cta-from-json="true">Explore LeadScout</a></article>
       <article class="card"><span class="tag">Gift Cards</span><h2>Blackhawk Gift Cards</h2><p>Gift card marketplace for customer campaigns and team rewards.</p><a class="btn" rel="sponsored nofollow" href="#" data-affiliate-key="blackhawk-gift-cards" data-cta-from-json="true">Browse gift cards</a></article>
     </div>
+    <p class="note">Affiliate disclosure: eStack.US may earn a commission when you click or apply through sponsored links, at no extra cost to you.</p>
   </main>
+
+  <footer>
+    <div class="wrap">eStack.US · <a href="affiliate-disclosure.html">Affiliate Disclosure</a> · <a href="privacy-policy.html">Privacy</a> · <a href="terms-of-use.html">Terms</a> · <a href="mailto:info@estack.us">Contact</a></div>
+  </footer>
+
+  <script>
+    async function loadAffiliateLinks() {
+      try {
+        const response = await fetch('/data/affiliate-links.json', { cache: 'no-store' });
+        if (!response.ok) return;
+        const data = await response.json();
+        document.querySelectorAll('[data-affiliate-key]').forEach((el) => {
+          const partner = data.partners && data.partners[el.dataset.affiliateKey];
+          if (!partner || !partner.url) return;
+          el.setAttribute('href', partner.url);
+          if (el.dataset.ctaFromJson === 'true' && partner.cta) {
+            el.textContent = partner.cta;
+          }
+          if (partner.url.startsWith('http')) {
+            el.setAttribute('target', '_blank');
+            el.setAttribute('rel', 'sponsored nofollow noopener noreferrer');
+          }
+        });
+      } catch (error) {
+        console.error('Affiliate links failed to load', error);
+      }
+    }
+    loadAffiliateLinks();
+  </script>
 </body>
 </html>
