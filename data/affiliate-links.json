@@ -1,21 +1,23 @@
 {
-  "updated": "2026-07-03",
+  "updated": "2026-07-04",
+  "market": "US",
   "partners": {
     "shopify": {
       "name": "Shopify",
-      "category": "Ecommerce",
+      "category": "Business Tools / Ecommerce",
       "url": "https://shopify.pxf.io/PzRMVN",
-      "cta": "Start a store"
+      "cta": "Start a free trial"
     },
     "beehiiv": {
       "name": "Beehiiv",
-      "category": "Newsletter",
+      "category": "Business Tools / Newsletter",
       "url": "https://www.beehiiv.com/",
-      "cta": "Build your newsletter"
+      "cta": "Build your newsletter",
+      "note": "No affiliate tracking parameter available — direct URL used. Update with affiliate tracking URL when available."
     },
     "windsor-ai": {
       "name": "Windsor.ai",
-      "category": "AI Analytics",
+      "category": "AI Tools",
       "url": "https://windsor.ai/?fpr=paul17",
       "cta": "Try Windsor.ai"
     },
@@ -27,34 +29,29 @@
     },
     "kitco": {
       "name": "Kitco",
-      "category": "Investing",
+      "category": "Investing / Gold",
       "url": "https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205",
       "cta": "Browse Kitco"
     },
-    "leadscout": {
-      "name": "LeadScout",
-      "category": "Finance / Loans / Partner Tools",
-      "url": "https://leadscout.ca",
-      "cta": "Explore LeadScout",
-      "description": "Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers."
-    },
     "afn": {
       "name": "Advance Funds Network",
-      "category": "Business Funding",
+      "category": "Business Credit / Funding",
       "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
       "cta": "See funding options"
-    },
-    "blackhawk-gift-cards": {
-      "name": "Blackhawk Gift Cards",
-      "category": "Gift Cards",
-      "url": "https://www.giftcards.com/",
-      "cta": "Browse gift cards"
-    },
-    "usa-rebound-finance": {
-      "name": "USA Rebound Finance",
-      "category": "Personal Loans",
-      "url": "https://cmi.rocks/go/6a443c202adb2",
-      "cta": "Check your offer"
     }
-  }
+  },
+  "removed": [
+    {
+      "name": "LeadScout",
+      "reason": "Canadian partner — not approved for US site"
+    },
+    {
+      "name": "USA Rebound Finance",
+      "reason": "Not in approved US partner list"
+    },
+    {
+      "name": "Blackhawk Gift Cards",
+      "reason": "Not in approved US partner list (belongs to estack.ca)"
+    }
+  ]
 }
