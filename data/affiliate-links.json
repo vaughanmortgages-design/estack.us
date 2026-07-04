@@ -1,60 +1,73 @@
 {
-  "updated": "2026-07-03",
-  "partners": {
+  "updated": "2026-07-04",
+  "site": "estack.us",
+  "market": "us",
+  "activePartners": {
+    "afn": {
+      "name": "Advance Funds Network",
+      "category": "Business Funding",
+      "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
+      "cta": "See funding options",
+      "status": "active"
+    },
     "shopify": {
       "name": "Shopify",
       "category": "Ecommerce",
       "url": "https://shopify.pxf.io/PzRMVN",
-      "cta": "Start a store"
-    },
-    "beehiiv": {
-      "name": "Beehiiv",
-      "category": "Newsletter",
-      "url": "https://www.beehiiv.com/",
-      "cta": "Build your newsletter"
+      "cta": "Start a store",
+      "status": "active"
     },
     "windsor-ai": {
       "name": "Windsor.ai",
       "category": "AI Analytics",
       "url": "https://windsor.ai/?fpr=paul17",
-      "cta": "Try Windsor.ai"
+      "cta": "Try Windsor.ai",
+      "status": "active"
     },
     "tiktok-for-business": {
       "name": "TikTok for Business",
-      "category": "Marketing",
+      "category": "Marketing Tools",
       "url": "https://getstartedtiktok.partnerlinks.io/19gddff1jq85",
-      "cta": "Start free"
+      "cta": "Start free",
+      "status": "active"
+    },
+    "beehiiv": {
+      "name": "Beehiiv",
+      "category": "Creator Economy",
+      "url": "https://www.beehiiv.com/",
+      "cta": "Build your newsletter",
+      "status": "active"
     },
     "kitco": {
       "name": "Kitco",
       "category": "Investing",
       "url": "https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205",
-      "cta": "Browse Kitco"
-    },
+      "cta": "Browse Kitco",
+      "status": "active"
+    }
+  },
+  "preservedLegacyLinks": {
     "leadscout": {
       "name": "LeadScout",
       "category": "Finance / Loans / Partner Tools",
       "url": "https://leadscout.ca",
       "cta": "Explore LeadScout",
-      "description": "Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers."
-    },
-    "afn": {
-      "name": "Advance Funds Network",
-      "category": "Business Funding",
-      "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
-      "cta": "See funding options"
+      "description": "Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers.",
+      "status": "preserved-not-published"
     },
     "blackhawk-gift-cards": {
       "name": "Blackhawk Gift Cards",
       "category": "Gift Cards",
       "url": "https://www.giftcards.com/",
-      "cta": "Browse gift cards"
+      "cta": "Browse gift cards",
+      "status": "preserved-not-published"
     },
     "usa-rebound-finance": {
       "name": "USA Rebound Finance",
       "category": "Personal Loans",
       "url": "https://cmi.rocks/go/6a443c202adb2",
-      "cta": "Check your offer"
+      "cta": "Check your offer",
+      "status": "preserved-not-published"
     }
   }
 }
