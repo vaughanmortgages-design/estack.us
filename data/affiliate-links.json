@@ -1,60 +1,155 @@
 {
-  "updated": "2026-07-03",
-  "partners": {
-    "shopify": {
-      "name": "Shopify",
-      "category": "Ecommerce",
-      "url": "https://shopify.pxf.io/PzRMVN",
-      "cta": "Start a store"
+  "updated": "2026-07-04",
+  "us": {
+    "scope": "US only",
+    "partners": {
+      "advance-funds-network": {
+        "name": "Advance Funds Network",
+        "category": "Business Funding",
+        "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
+        "cta": "See Funding Options"
+      },
+      "shopify": {
+        "name": "Shopify",
+        "category": "Ecommerce",
+        "url": "https://shopify.pxf.io/PzRMVN",
+        "cta": "Start on Shopify"
+      },
+      "beehiiv": {
+        "name": "Beehiiv",
+        "category": "Creator Tools",
+        "url": "https://www.beehiiv.com/",
+        "cta": "Build Your Newsletter"
+      },
+      "windsor-ai": {
+        "name": "Windsor.ai",
+        "category": "AI",
+        "url": "https://windsor.ai/?fpr=paul17",
+        "cta": "Try Windsor.ai"
+      },
+      "tiktok-for-business": {
+        "name": "TikTok for Business",
+        "category": "Marketing",
+        "url": "https://getstartedtiktok.partnerlinks.io/19gddff1jq85",
+        "cta": "Start on TikTok Ads"
+      },
+      "kitco": {
+        "name": "Kitco",
+        "category": "Precious Metals",
+        "url": "https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205",
+        "cta": "Browse Kitco"
+      }
+    }
+  },
+  "ca": {
+    "scope": "Canada only",
+    "partners": {
+      "loan-genie": {
+        "name": "Loan Genie",
+        "category": "Loans",
+        "url": "https://www.loangenie.ca/",
+        "cta": "Visit Loan Genie"
+      },
+      "loans-canada": {
+        "name": "Loans Canada",
+        "category": "Loans",
+        "url": "https://www.loanscanada.ca/",
+        "cta": "Visit Loans Canada"
+      },
+      "rate-genie": {
+        "name": "Rate Genie",
+        "category": "Loans",
+        "url": "https://www.rategenie.ca/",
+        "cta": "Visit Rate Genie"
+      },
+      "spring-financial": {
+        "name": "Spring Financial",
+        "category": "Credit Building",
+        "url": "https://www.springfinancial.ca/",
+        "cta": "Visit Spring Financial"
+      },
+      "comparehub": {
+        "name": "CompareHub",
+        "category": "Financial Tools",
+        "url": "https://comparehub.ca/",
+        "cta": "Visit CompareHub"
+      },
+      "koho": {
+        "name": "KOHO",
+        "category": "Banking",
+        "url": "https://www.koho.ca/",
+        "cta": "Visit KOHO"
+      },
+      "neo-financial": {
+        "name": "Neo Financial",
+        "category": "Credit Cards",
+        "url": "https://www.neofinancial.com/",
+        "cta": "Visit Neo Financial"
+      },
+      "nyble": {
+        "name": "Nyble",
+        "category": "Credit Building",
+        "url": "https://www.nyble.com/",
+        "cta": "Visit Nyble"
+      },
+      "bree": {
+        "name": "Bree",
+        "category": "Credit Building",
+        "url": "https://www.trybree.com/",
+        "cta": "Visit Bree"
+      },
+      "wagepay": {
+        "name": "Wagepay",
+        "category": "Auto Loans",
+        "url": "https://wagepay.com/",
+        "cta": "Visit Wagepay"
+      },
+      "debt-rehab-canada": {
+        "name": "Debt Rehab Canada",
+        "category": "Business Loans",
+        "url": "https://debtrehab.ca/",
+        "cta": "Visit Debt Rehab Canada"
+      },
+      "hr-block-canada": {
+        "name": "H&R Block Canada",
+        "category": "Financial Tools",
+        "url": "https://www.hrblock.ca/",
+        "cta": "Visit H&R Block Canada"
+      },
+      "kitco": {
+        "name": "Kitco",
+        "category": "Precious Metals",
+        "url": "https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205",
+        "cta": "Visit Kitco"
+      },
+      "creditmarketing-ca": {
+        "name": "CreditMarketing.ca",
+        "category": "Financial Tools",
+        "url": "https://creditmarketing.ca/",
+        "cta": "Visit CreditMarketing.ca"
+      },
+      "blackhawk-giftcards-ca": {
+        "name": "Blackhawk Network / GiftCards.ca",
+        "category": "Gift Cards",
+        "url": "https://www.awin1.com/cread.php?awinmid=91359&awinaffid=2936205",
+        "cta": "Visit GiftCards.ca"
+      }
     },
-    "beehiiv": {
-      "name": "Beehiiv",
-      "category": "Newsletter",
-      "url": "https://www.beehiiv.com/",
-      "cta": "Build your newsletter"
-    },
-    "windsor-ai": {
-      "name": "Windsor.ai",
-      "category": "AI Analytics",
-      "url": "https://windsor.ai/?fpr=paul17",
-      "cta": "Try Windsor.ai"
-    },
-    "tiktok-for-business": {
-      "name": "TikTok for Business",
-      "category": "Marketing",
-      "url": "https://getstartedtiktok.partnerlinks.io/19gddff1jq85",
-      "cta": "Start free"
-    },
-    "kitco": {
-      "name": "Kitco",
-      "category": "Investing",
-      "url": "https://www.awin1.com/cread.php?awinmid=84579&awinaffid=2936205",
-      "cta": "Browse Kitco"
-    },
-    "leadscout": {
-      "name": "LeadScout",
-      "category": "Finance / Loans / Partner Tools",
-      "url": "https://leadscout.ca",
-      "cta": "Explore LeadScout",
-      "description": "Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers."
-    },
-    "afn": {
-      "name": "Advance Funds Network",
-      "category": "Business Funding",
-      "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
-      "cta": "See funding options"
-    },
-    "blackhawk-gift-cards": {
-      "name": "Blackhawk Gift Cards",
-      "category": "Gift Cards",
-      "url": "https://www.giftcards.com/",
-      "cta": "Browse gift cards"
-    },
-    "usa-rebound-finance": {
-      "name": "USA Rebound Finance",
-      "category": "Personal Loans",
-      "url": "https://cmi.rocks/go/6a443c202adb2",
-      "cta": "Check your offer"
+    "gift_cards": {
+      "affiliate_url": "https://www.awin1.com/cread.php?awinmid=91359&awinaffid=2936205",
+      "categories": [
+        "Amazon Gift Cards",
+        "Apple",
+        "Walmart",
+        "Canadian Tire",
+        "Best Buy",
+        "Starbucks",
+        "Home Depot",
+        "Restaurants",
+        "Gaming",
+        "Visa Gift Cards",
+        "Mastercard Gift Cards"
+      ]
     }
   }
 }
