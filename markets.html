@@ -3,26 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Market Highlights | eStack.US</title>
-  <meta name="description" content="Track U.S. markets, gold, silver, Bitcoin and dollar strength with live widgets from eStack.US.">
+  <title>Live Markets | eStack.US</title>
+  <meta name="description" content="Track Gold, Silver, Bitcoin, TSX, S&P 500, Nasdaq and USD/CAD with live market widgets from eStack.US.">
   <link rel="canonical" href="https://estack.us/markets.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Market Highlights | eStack.US">
-  <meta property="og:description" content="Live market highlights for operators and investors.">
+  <meta property="og:title" content="Live Markets | eStack.US">
+  <meta property="og:description" content="Premium live market coverage for U.S. readers.">
   <meta property="og:url" content="https://estack.us/markets.html">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Market Highlights | eStack.US">
-  <meta name="twitter:description" content="Live market highlights for operators and investors.">
-  <style>
-    body{font-family:Inter,Arial,sans-serif;margin:0;background:#faf7ee;color:#0B1426}.wrap{max-width:1120px;margin:auto;padding:32px 20px}header,footer{background:#0B1426;color:white}a{color:inherit}.logo{font-size:28px;font-weight:900;text-decoration:none}.logo span{color:#D4A853}.hero{background:#0B1426;color:#F5F0E3;padding:60px 20px}.hero h1{font-size:clamp(38px,6vw,70px);margin:0 0 10px}.box{background:white;border:1px solid #ded6c4;border-radius:24px;padding:20px;margin:22px 0}
-  </style>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Live Markets | eStack.US">
+  <meta name="twitter:description" content="Premium live market coverage for U.S. readers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header><div class="wrap"><a class="logo" href="/">e<span>Stack</span>.US</a> · <a href="partners.html">Partners</a></div></header>
-  <main>
-    <section class="hero"><div class="wrap"><h1>Market highlights.</h1><p>Gold, silver, Bitcoin, S&P 500, Nasdaq and the U.S. Dollar Index.</p></div></section>
-    <section class="wrap" aria-label="Live market overview"><div class="box"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>{"colorTheme":"light","dateRange":"12M","showChart":true,"locale":"en","width":"100%","height":"520","isTransparent":false,"showSymbolLogo":true,"tabs":[{"title":"US Watch","symbols":[{"s":"FOREXCOM:SPXUSD","d":"S&P 500"},{"s":"NASDAQ:IXIC","d":"Nasdaq"},{"s":"TVC:GOLD","d":"Gold"},{"s":"TVC:SILVER","d":"Silver"},{"s":"BITSTAMP:BTCUSD","d":"Bitcoin"},{"s":"TVC:DXY","d":"US Dollar"}]}]}</script></div></div></section>
+  <div class="top-disclosure">Affiliate Disclosure: Some links on this website are affiliate links. We may earn a commission if you purchase or apply through those links at no additional cost to you.</div>
+
+  <div class="market-ticker" aria-label="Live market ticker">
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {"symbols":[{"proName":"TVC:GOLD","title":"Gold"},{"proName":"TVC:SILVER","title":"Silver"},{"proName":"BITSTAMP:BTCUSD","title":"Bitcoin"},{"proName":"TSX:TSX","title":"TSX"},{"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},{"proName":"NASDAQ:NDX","title":"Nasdaq"},{"proName":"FX_IDC:USDCAD","title":"USD/CAD"}],"showSymbolLogo":true,"colorTheme":"dark","isTransparent":true,"displayMode":"adaptive","locale":"en"}
+      </script>
+    </div>
+  </div>
+
+  <nav class="site-nav"><div class="container nav-inner"><a class="logo" href="./">e<span>Stack</span>.US</a><div class="nav-links"><a href="./">Home</a><a href="partners.html">Partners</a><a href="affiliate-disclosure.html">Disclosure</a></div></div></nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <h1>Live Market Coverage.</h1>
+      <p>Track Gold, Silver, Bitcoin, TSX, S&P 500, Nasdaq and USD/CAD in one premium market dashboard.</p>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="container">
+      <section class="market-panel" aria-label="Live market overview">
+        <h3>Market Overview</h3>
+        <p>Live data with chart context to support faster decisions.</p>
+        <div class="trading-box">
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+              {"colorTheme":"light","dateRange":"12M","showChart":true,"locale":"en","width":"100%","height":"520","isTransparent":false,"showSymbolLogo":true,"tabs":[{"title":"Global Watch","symbols":[{"s":"TVC:GOLD","d":"Gold"},{"s":"TVC:SILVER","d":"Silver"},{"s":"BITSTAMP:BTCUSD","d":"Bitcoin"},{"s":"TSX:TSX","d":"TSX"},{"s":"FOREXCOM:SPXUSD","d":"S&P 500"},{"s":"NASDAQ:NDX","d":"Nasdaq"},{"s":"FX_IDC:USDCAD","d":"USD/CAD"}]}]}
+            </script>
+          </div>
+        </div>
+        <div class="button-row">
+          <a class="btn btn-primary" href="partners.html">Explore Products</a>
+          <a class="btn btn-secondary" href="./">Back to Homepage</a>
+        </div>
+      </section>
+    </div>
   </main>
-  <footer><div class="wrap">eStack.US · <a href="affiliate-disclosure.html">Affiliate Disclosure</a></div></footer>
+
+  <footer class="footer"><div class="container"><div class="footer-grid"><div><h3>eStack.US</h3><p>Professional financial publication with live market context and trusted products.</p></div><div><h4>Footer</h4><div class="footer-links"><a href="affiliate-disclosure.html">Affiliate Disclosure</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-use.html">Terms</a><a href="about.html">About</a><a href="mailto:info@estack.us">Contact</a></div></div><div><h4>Social Icons</h4><div class="socials"><a href="https://facebook.com/profile.php?id=61591213484503" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://instagram.com/estack_us/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://ca.pinterest.com/estack_us/" target="_blank" rel="noopener noreferrer">Pinterest</a></div></div></div><div class="fineprint">Some links on this website are affiliate links. We may earn a commission if you purchase or apply through those links at no additional cost to you.</div></div></footer>
 </body>
 </html>
