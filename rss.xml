@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eStack US</title>
+    <link>https://estack.us/</link>
+    <description>U.S. finance, credit, software, business tools, and money-saving resources from eStack.</description>
+    <language>en-us</language>
+    <atom:link href="https://estack.us/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 21:52:00 -0400</lastBuildDate>
+    <item>
+      <title>Welcome to eStack US</title>
+      <link>https://estack.us/</link>
+      <guid isPermaLink="true">https://estack.us/</guid>
+      <pubDate>Fri, 17 Jul 2026 21:52:00 -0400</pubDate>
+      <description>Explore practical U.S. finance, credit, software, business tools, and money-saving resources.</description>
+    </item>
+  </channel>
+</rss>
