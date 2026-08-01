@@ -1,32 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>eStack US</title>
+    <title>eStack.US</title>
     <link>https://estack.us/</link>
-    <description>U.S. finance, credit, software, business tools, and money-saving resources from eStack.</description>
+    <description>Loans, credit rebuilding, business funding, AI tools and money guides for U.S. readers.</description>
     <language>en-us</language>
     <atom:link href="https://estack.us/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 20 Jul 2026 19:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 05:20:00 GMT</lastBuildDate>
     <item>
-      <title>Best AI Analytics Tools for Small Business in 2026</title>
-      <link>https://estack.us/best-ai-analytics-tools-small-business-2026.html</link>
-      <guid isPermaLink="false">estack-us-ai-analytics-20260720-pm</guid>
-      <pubDate>Mon, 20 Jul 2026 19:00:00 -0400</pubDate>
-      <description>Small businesses do not need more dashboards—they need faster answers. Compare AI analytics tools for connectors, automation, privacy, pricing and reporting workflows. This article may contain affiliate links.</description>
+      <title>Explore eStack.US Partners and Tools</title>
+      <link>https://estack.us/partners.html</link>
+      <guid isPermaLink="true">https://estack.us/partners.html</guid>
+      <pubDate>Sat, 01 Aug 2026 05:20:00 GMT</pubDate>
+      <description>Explore business funding, personal loan options, ecommerce platforms, newsletter tools and AI analytics partners.</description>
+      <media:content url="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" medium="image" />
     </item>
     <item>
-      <title>Best AI Analytics Tools for Small Business in 2026</title>
-      <link>https://estack.us/best-ai-analytics-tools-small-business-2026.html</link>
-      <guid isPermaLink="false">estack-us-ai-analytics-20260718-am</guid>
-      <pubDate>Sat, 18 Jul 2026 01:30:00 -0400</pubDate>
-      <description>Compare AI analytics tools for data connectors, dashboards, automation, privacy, pricing and small-business reporting workflows.</description>
+      <title>Personal Loans Guide</title>
+      <link>https://estack.us/personal-loans.html</link>
+      <guid isPermaLink="true">https://estack.us/personal-loans.html</guid>
+      <pubDate>Fri, 31 Jul 2026 15:00:00 GMT</pubDate>
+      <description>Learn how personal loans work, what to review before applying and how to compare borrowing costs responsibly.</description>
+      <media:content url="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" medium="image" />
     </item>
     <item>
-      <title>Welcome to eStack US</title>
-      <link>https://estack.us/</link>
-      <guid isPermaLink="true">https://estack.us/</guid>
-      <pubDate>Fri, 17 Jul 2026 21:52:00 -0400</pubDate>
-      <description>Explore practical U.S. finance, credit, software, business tools, and money-saving resources.</description>
+      <title>Credit Rebuild Guide</title>
+      <link>https://estack.us/credit-rebuild.html</link>
+      <guid isPermaLink="true">https://estack.us/credit-rebuild.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:00:00 GMT</pubDate>
+      <description>Understand credit reports, utilization, missed payments and responsible credit rebuilding.</description>
+      <media:content url="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" medium="image" />
     </item>
   </channel>
 </rss>
