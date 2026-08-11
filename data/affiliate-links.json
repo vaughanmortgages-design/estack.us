@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03",
+  "updated": "2026-08-11",
   "partners": {
     "shopify": {
       "name": "Shopify",
@@ -37,12 +37,6 @@
       "url": "https://leadscout.ca",
       "cta": "Explore LeadScout",
       "description": "Canadian loan lead generation and affiliate platform for personal loan and consumer finance offers."
-    },
-    "afn": {
-      "name": "Advance Funds Network",
-      "category": "Business Funding",
-      "url": "https://app.advancefundsnetwork.com/affiliate-landing/U0JxSd5yROWgKfF93ibsLDcSCkn2",
-      "cta": "See funding options"
     },
     "blackhawk-gift-cards": {
       "name": "Blackhawk Gift Cards",
