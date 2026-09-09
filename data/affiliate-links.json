@@ -1,11 +1,27 @@
 {
-  "updated": "2026-08-11",
+  "updated": "2026-09-09",
   "partners": {
     "shopify": {
       "name": "Shopify",
       "category": "Ecommerce",
       "url": "https://shopify.pxf.io/PzRMVN",
       "cta": "Start a store"
+    },
+    "amazon-us": {
+      "name": "Amazon",
+      "category": "Marketplace",
+      "url": "https://www.amazon.com/?tag=estackus01-20",
+      "cta": "Shop Amazon",
+      "country": "US",
+      "storeId": "estackus01-20"
+    },
+    "ebay-us": {
+      "name": "eBay",
+      "category": "Marketplace",
+      "url": "https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339205447&customid=&toolid=10001&mkevt=1",
+      "cta": "Shop eBay",
+      "country": "US",
+      "campaignId": "5339205447"
     },
     "beehiiv": {
       "name": "Beehiiv",
